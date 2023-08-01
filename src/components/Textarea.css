@@ -1,0 +1,27 @@
+textarea{
+    width: 880px; 
+    height: 290px;
+    
+}
+
+.textarea{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+text-align: center;
+}
+
+.buttons{
+    margin: 2% 21% 5%;
+}
+
+button{
+    margin-left: 1.5%;
+}
+
+.preview{
+    text-align: center;
+    margin: 2% 21% 5%;
+}
