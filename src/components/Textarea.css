@@ -1,8 +1,15 @@
 textarea{
     width: 880px; 
     height: 290px;
+    /* border-color: blue; */
+    cursor: pointer;
+    transition: border-color 0.3s;
     
 }
+
+.textarea:hover {
+    border-color: #f00; /* Change the border color on hover */
+  }
 
 .textarea{
     display: flex;
@@ -23,5 +30,27 @@ button{
 
 .preview{
     text-align: center;
-    margin: 2% 21% 5%;
+    padding: 2% 21% 5%;
+ padding-bottom: 30px;
+}
+
+
+.function{
+    
+    background-color: rgb(30, 0, 255);
+    color: white;
+    font-size: 16px;
+    border-radius: 10%;
+    padding: 0.3%;
+
+}
+.clear{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 20%;
+    padding: 0.3%;
+
+
+
 }

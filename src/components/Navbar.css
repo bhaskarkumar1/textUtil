@@ -1,10 +1,12 @@
-.navbar{
+/* .navbar{
     background-color: aliceblue;
     
-}
+} */
 
 .navitems{
     display: flex;
+    /* margin-top: 2%; */
+    padding: 1.5% ;
 
 }
 

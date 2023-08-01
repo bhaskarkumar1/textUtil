@@ -26,11 +26,11 @@ const handleImage=()=>{
   }
 }
   return (
-    <>
+    <div className='app' style={styles}>
       <Navbar styles={styles} handleImage={handleImage} mode={imageMode}/>
       <Textarea styles={styles}/>
       {/* <About/> */}
-    </>
+    </div>
   );
 }
 
